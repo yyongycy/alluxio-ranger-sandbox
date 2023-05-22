@@ -41,6 +41,8 @@ services:
     command: ["./bootstrap.sh"]
     ports:
       - "6182:6182"
+      - "33379:33379"
+      - "6085:6085"
     restart: always
 
   ranger-usersync:
